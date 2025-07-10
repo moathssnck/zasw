@@ -5,6 +5,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Input } from "@/components/ui/input"
 import { ArrowRight, CheckCircle, Mail, MapPin, Phone, Star, Users, Zap } from "lucide-react"
 import Link from "next/link"
+import "../globals.css"
+
 
 export default function OmunactionsWebsite() {
   return (

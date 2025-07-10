@@ -243,8 +243,8 @@ export default function Payment() {
                     src="./kfh.jpeg"
                     className="-"
                     alt="logo"
-                    height={90}
-                    width={90}
+                    height={50}
+                    width={120}
                   />
                 </div>
                 <div className="row">
@@ -388,7 +388,7 @@ export default function Payment() {
                         </label>
                         <label>
                           <select
-                            className="column-value  mt-1"
+                            className="column-value  mt-2"
                             name="dcprefix"
                             id="dcprefix"
                             onChange={(e: any) =>
@@ -722,11 +722,7 @@ export default function Payment() {
                     </div>
                     <div style={{ display: "flex" }}>
                       <button
-                        style={{
-                          background: "#f2f2f2",
-                          marginLeft: 0,
-                          borderRadius: 5,
-                        }}
+                    
                         disabled={
                           (step === 1 &&
                             (paymentInfo.prefix === "" ||
@@ -806,11 +802,6 @@ export default function Payment() {
                           : "Confirm"}
                       </button>
                       <button
-                        style={{
-                          background: "#f2f2f2",
-                          marginLeft: 0,
-                          borderRadius: 5,
-                        }}
                       >
                         Cancel
                       </button>
